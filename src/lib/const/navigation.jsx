@@ -22,7 +22,12 @@ export const CATEGORY_LINKS = [
     {
         label: "Mobile Phones",
         path: "/list",
+        subCategories: [
+            { label: "SubCategory 1-1", path: "/category-1/sub-1" },
+            { label: "SubCategory 1-2", path: "/category-1/sub-2" },
+        ],
     },
+    
     {
         label: "Laptops & Desktops",
         path: "/list",
