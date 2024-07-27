@@ -1,4 +1,6 @@
-import { RiHeart2Fill, RiShoppingBag3Fill, RiUser3Fill } from "react-icons/ri"
+import React, { useState } from 'react';
+import { RiHeart2Fill, RiShoppingBag3Fill, RiUser3Fill } from "react-icons/ri";
+import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"; // Importing icons for pagination
 
 export const HEADER_NAV = [
     {
@@ -16,28 +18,83 @@ export const HEADER_NAV = [
         path: "/cart",
         icon: <RiShoppingBag3Fill fontSize={20} />,
     },
-]
+];
 
 export const CATEGORY_LINKS = [
     {
-        label: "Mobile Phones",
-        path: "/list",
+        label: "MILITARY HISTORY",
+        path: "/military-history",
         subCategories: [
-            { label: "SubCategory 1-1", path: "/category-1/sub-1" },
-            { label: "SubCategory 1-2", path: "/category-1/sub-2" },
+            { label: "Frontier Wars", path: "/military-history/frontier-wars" },
+            { label: "Anglo-Boer Wars", path: "/military-history/anglo-boer-wars" },
+            { label: "Anglo-Zulu Wars", path: "/military-history/anglo-zulu-wars" },
+            { label: "World War I", path: "/military-history/world-war-i" },
+            { label: "World War II", path: "/military-history/world-war-ii" },
+            { label: "Korean War", path: "/military-history/korean-war" },
+            { label: "Vietnam War", path: "/military-history/vietnam-war" },
+            { label: "Border War", path: "/military-history/border-war" },
+            { label: "Rhodesian Bush War", path: "/military-history/rhodesian-bush-war" },
+            { label: "Gulf Wars", path: "/military-history/gulf-wars" },
+            { label: "Afghanistan", path: "/military-history/afghanistan" },
+            { label: "Other Wars", path: "/military-history/other-wars" },
+            { label: "Military Hardware", path: "/military-history/military-hardware" },
+            { label: "Regimental Histories", path: "/military-history/regimental-histories" },
         ],
     },
-    
     {
-        label: "Laptops & Desktops",
-        path: "/list",
+        label: "BOOKS",
+        path: "/books",
+        subCategories: [
+            { label: "Africa", path: "/africa" },
+            { label: "Africana", path: "/africana" },
+            { label: "Antarctic", path: "/antarctic" },
+            { label: "Anthropology", path: "/anthropology" },
+            { label: "Archaeology", path: "/archaeology" },
+            { label: "Paleontology", path: "/paleontology" },
+            { label: "Aviation", path: "/aviation" },
+            { label: "Biographies", path: "/biographies" },
+            { label: "Botany", path: "/botany" },
+            { label: "Geology", path: "/geology" },
+            { label: "Marine Biology", path: "/marine-biology" },
+            { label: "Military History", path: "/military-history" },
+            { label: "Science & Engineering", path: "/science-engineering" },
+            { label: "Travel & Exploration", path: "/travel-exploration" },
+            { label: "Zoology", path: "/zoology" },
+            { label: "Sport", path: "/sport" },
+            { label: "Fiction", path: "/fiction" },
+            { label: "General literature", path: "/general-literature" }
+        ].sort((a, b) => a.label.localeCompare(b.label)), // Sort alphabetically
     },
     {
-        label: "PC Games",
-        path: "/list",
+        label: "MEMORABILIA",
+        path: "/memorabilia",
+        subCategories: [
+            { label: "Military", path: "/memorabilia/military" },
+            { label: "Other", path: "/memorabilia/other" },
+        ],
     },
-    {
-        label: "Home & Furnitures",
-        path: "/list",
-    },
-]
+];
+
+const CategoryList = () => {
+    const categories = [
+        { label: "Africa", path: "/africa" },
+        { label: "Africana", path: "/africana" },
+        { label: "Antarctic", path: "/antarctic" },
+        { label: "Anthropology", path: "/anthropology" },
+        { label: "Archaeology", path: "/archaeology" },
+        { label: "Paleontology", path: "/paleontology" },
+        { label: "Aviation", path: "/aviation" },
+        { label: "Biographies", path: "/biographies" },
+        { label: "Botany", path: "/botany" },
+        { label: "Geology", path: "/geology" },
+        { label: "Marine Biology", path: "/marine-biology" },
+        { label: "Military History", path: "/military-history" },
+        { label: "Science & Engineering", path: "/science-engineering" },
+        { label: "Travel & Exploration", path: "/travel-exploration" },
+        { label: "Zoology", path: "/zoology" },
+        { label: "Sport", path: "/sport" },
+        { label: "Fiction", path: "/fiction" },
+        { label: "General literature", path: "/general-literature" }
+    ].sort((a, b) => a.label.localeCompare(b.label)); // Sort alphabetically
+
+}

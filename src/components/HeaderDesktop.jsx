@@ -10,7 +10,7 @@ function HeaderDesktop() {
                 <div className="navbar-start">
                     <Link href={"/"} className="flex items-center gap-2 text-secondary text-xl font-semibold">
                         <RiShoppingBasket2Fill fontSize={30} />
-                        <span className="pt-0.5">Basket</span>
+                        <span className="pt-0.5">Ratel Books</span>
                     </Link>
                 </div>
                 <div className="navbar-center">
@@ -30,16 +30,28 @@ function HeaderDesktop() {
                                 Category <RiArrowDownSLine />
                             </label>
                             <ul
-                                tabIndex={0}
-                                className="dropdown-content z-[1] menu p-1 shadow border border-gray-300 bg-base-100 rounded-lg w-52"
-                            >
-                                <li>
-                                    <a>Electronic</a>
-                                </li>
-                                <li>
-                                    <a>Home Furniture</a>
-                                </li>
-                            </ul>
+                tabIndex={0}
+                className="dropdown-content z-[1] menu p-2 shadow border border-gray-300 bg-base-100 rounded-lg flex w-max"
+            >
+                <li><a className="hover:bg-blue-300 px-2">Africa</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Africana</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Antarctic</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Anthropology</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Archaeology</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Paleontology</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Aviation</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Biographies</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Botany</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Geology</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Marine Biology</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Military History</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Science &amp; Engineering</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Travel &amp; Exploration</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Zoology</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Sport</a></li>
+                <li><a className="hover:bg-blue-300 px-2">Fiction</a></li>
+                <li><a className="hover:bg-blue-300 px-2">General literature</a></li>
+            </ul>
                         </div>
                         <button className="btn btn-sm btn-secondary join-item rounded-r-lg capitalize">Search</button>
                     </div>
