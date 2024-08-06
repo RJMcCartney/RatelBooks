@@ -4,19 +4,19 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai"; // Importing ico
 
 export const HEADER_NAV = [
     {
-        label: "Profile",
+        label: <span className="text-green-800">Profile</span>,
         path: "/profile",
-        icon: <RiUser3Fill fontSize={20} />,
+        icon: <RiUser3Fill fontSize={20} style={{ color: '#065f46' }} />,
     },
     {
-        label: "Orders",
+        label: <span className="text-green-800">Orders</span>,
         path: "/orders",
-        icon: <RiHeart2Fill fontSize={20} />,
+        icon: <RiHeart2Fill fontSize={20} style={{ color: '#065f46' }} />,
     },
     {
-        label: "My Cart",
+        label: <span className="text-green-800">My Cart</span>,
         path: "/cart",
-        icon: <RiShoppingBag3Fill fontSize={20} />,
+        icon: <RiShoppingBag3Fill fontSize={20} style={{ color: '#065f46' }} />,
     },
 ];
 

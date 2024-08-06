@@ -13,17 +13,25 @@ function ProductCategoryCard({ category, size }) {
             <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
                 {size === "xl" ? (
                     <>
-                        <h3 className="text-3xl font-bold text-white">{name}</h3>
-                        <p className="max-w-lg py-3 text-white">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolorum officia autem
-                            libero!
+                        <h3 className="absolute top-0 left-0 m-4 text-4xl font-bold text-green-800" style={{ textShadow: '4px 4px 6px rgba(255, 255, 255, 0.9), -4px -4px 6px rgba(255, 255, 255, 0.9), -2px 2px 4px rgba(255, 255, 255, 0.9), 2px -2px 4px rgba(255, 255, 255, 0.9)' }}>
+                        {name}
+                        </h3>
+                        <p className="max-w-lg py-3 text-green-900" style={{ textShadow: '4px 4px 6px rgba(255, 255, 255, 0.9), -4px -4px 6px rgba(255, 255, 255, 0.9), -2px 2px 4px rgba(255, 255, 255, 0.9), 2px -2px 4px rgba(255, 255, 255, 0.9)' }}>
+                        {name}
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dolorum officia autem libero!
                         </p>
-                        <button className="btn btn-secondary text-lg capitalize">Shop Now</button>
-                    </>
-                ) : (
+                        <button className="btn btn-sm capitalize bg-green-800 text-white hover:bg-green-700">
+                         Shop Now
+                        </button>
+                        </>
+                        ) : (
                     <>
-                        <h3 className="text-xl font-medium text-white mb-2">{name}</h3>
-                        <button className="btn btn-sm btn-secondary capitalize">Shop Now</button>
+                        <h3 className="absolute top-0 left-0 m-4 text-xl font-medium text-green-800 mb-2" style={{ textShadow: '2px 2px 4px rgba(255, 255, 255, 0.9)' }}>
+                        {name}
+                        </h3>
+                        <button className="btn btn-sm capitalize bg-green-800 text-white hover:bg-green-700">
+                         Shop Now
+                        </button>
                     </>
                 )}
             </div>

@@ -18,9 +18,9 @@ function Footer() {
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
                         <div className="flex justify-center text-secondary sm:justify-start">
-                            <Link href={"/"} className="flex items-center gap-2 text-secondary text-xl font-semibold">
+                            <Link href={"/"} className="flex items-center gap-2 text-green-900 text-xl font-semibold">
                                 <RiShoppingBasket2Fill fontSize={30} />
-                                <span className="pt-0.5">Basket</span>
+                                <span className="pt-0.5 text-green-900">Ratel Books</span>
                             </Link>
                         </div>
 
@@ -34,7 +34,7 @@ function Footer() {
                                 <Link href="#">
                                     <RiFacebookCircleFill
                                         fontSize={26}
-                                        className="text-secondary transition hover:text-secondary/75"
+                                        className="text-green-900 transition hover:text-green-700"
                                     />
                                 </Link>
                             </li>
@@ -42,7 +42,7 @@ function Footer() {
                                 <Link href="#">
                                     <RiInstagramLine
                                         fontSize={26}
-                                        className="text-secondary transition hover:text-secondary/75"
+                                        className="text-green-900 transition hover:text-green-700"
                                     />
                                 </Link>
                             </li>
@@ -50,7 +50,7 @@ function Footer() {
                                 <Link href="#">
                                     <RiLinkedinFill
                                         fontSize={26}
-                                        className="text-secondary transition hover:text-secondary/75"
+                                        className="text-green-900 transition hover:text-green-700"
                                     />
                                 </Link>
                             </li>
@@ -58,7 +58,7 @@ function Footer() {
                                 <Link href="#">
                                     <RiTwitterFill
                                         fontSize={26}
-                                        className="text-secondary transition hover:text-secondary/75"
+                                        className="text-green-900 transition hover:text-green-700"
                                     />
                                 </Link>
                             </li>
@@ -67,7 +67,7 @@ function Footer() {
 
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
                         <div className="text-center sm:text-left">
-                            <p className="text-lg font-medium text-gray-900">About Us</p>
+                            <p className="text-lg font-medium text-green-900">About Us</p>
 
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
@@ -97,7 +97,7 @@ function Footer() {
                         </div>
 
                         <div className="text-center sm:text-left">
-                            <p className="text-lg font-medium text-gray-900">Informations</p>
+                            <p className="text-lg font-medium text-green-900">Informations</p>
 
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
@@ -127,7 +127,7 @@ function Footer() {
                         </div>
 
                         <div className="text-center sm:text-left">
-                            <p className="text-lg font-medium text-gray-900">Support</p>
+                            <p className="text-lg font-medium text-green-900">Support</p>
 
                             <ul className="mt-8 space-y-4 text-sm">
                                 <li>
@@ -189,15 +189,15 @@ function Footer() {
                 <div className="mt-12 border-t border-gray-300 pt-6">
                     <div className="text-center sm:flex sm:justify-between sm:text-left">
                         <div className="text-sm text-gray-500 flex items-center gap-3">
-                            <Link className="inline-block text-secondary transition hover:text-secondary/75" href="/">
+                            <Link className="inline-block text-green-800 transition hover:text-green-700" href="/">
                                 Terms & Conditions
                             </Link>
-                            <Link className="inline-block text-secondary transition hover:text-secondary/75" href="/">
+                            <Link className="inline-block text-green-800 transition hover:text-green-700" href="/">
                                 Privacy Policy
                             </Link>
                         </div>
 
-                        <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">&copy; 2023 Basket</p>
+                        <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">&copy; 2023 Ratel Books</p>
                     </div>
                 </div>
             </div>

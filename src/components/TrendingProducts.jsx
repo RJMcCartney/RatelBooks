@@ -9,7 +9,9 @@ function TrendingProducts() {
                 style={{ backgroundImage: "url('/images/offer-bg-2.png')" }}
             >
                 <h3 className="text-xl font-medium mb-4">Casual, Formal & Trending Clothes</h3>
-                <button className="btn btn-sm btn-secondary capitalize">Shop Now</button>
+                <button className="btn btn-sm capitalize bg-green-800 text-white hover:bg-green-700">
+                         Shop Now
+                        </button>
             </div>
             <div className="flex-1">
                 <div className="grid grid-cols-4">
