@@ -22,7 +22,7 @@ export const HEADER_NAV = [
 
 export const CATEGORY_LINKS = [
     {
-        label: "MILITARY HISTORY",
+        label: "Military-History",
         path: "/military-history",
         subCategories: [
             { label: "Frontier Wars", path: "/military-history/frontier-wars" },
@@ -35,14 +35,14 @@ export const CATEGORY_LINKS = [
             { label: "Border War", path: "/military-history/border-war" },
             { label: "Rhodesian Bush War", path: "/military-history/rhodesian-bush-war" },
             { label: "Gulf Wars", path: "/military-history/gulf-wars" },
-            { label: "Afghanistan", path: "/military-history/afghanistan" },
+            { label: "Afghanistan War", path: "/military-history/afghanistan" },
             { label: "Other Wars", path: "/military-history/other-wars" },
             { label: "Military Hardware", path: "/military-history/military-hardware" },
             { label: "Regimental Histories", path: "/military-history/regimental-histories" },
         ],
     },
     {
-        label: "BOOKS",
+        label: "Books",
         path: "/books",
         subCategories: [
             { label: "Africa", path: "/africa" },
@@ -66,7 +66,7 @@ export const CATEGORY_LINKS = [
         ].sort((a, b) => a.label.localeCompare(b.label)), // Sort alphabetically
     },
     {
-        label: "MEMORABILIA",
+        label: "Memorabilia",
         path: "/memorabilia",
         subCategories: [
             { label: "Military", path: "/memorabilia/military" },

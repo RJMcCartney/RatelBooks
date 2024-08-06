@@ -10,7 +10,7 @@ function Breadcrumbs({}) {
                 <li>
                     <a>Categories</a>
                 </li>
-                <li>Mobile Phones</li>
+                <li>Military</li>
             </ul>
         </div>
     )

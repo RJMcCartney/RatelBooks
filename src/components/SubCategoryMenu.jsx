@@ -12,7 +12,7 @@ function SubCategoryMenu({ subCategories }) {
                 <div className="py-3">
                     <ul className="flex items-center gap-6 text-sm">
                         {subCategories.map((subCat, idx) => (
-                            <Link key={subCat.path + idx} href={subCat.path} className="hover:opacity-80 transition-opacity">
+                            <Link key={subCat.path + idx} href={subCat.path} className="hover:text-blue-500 opacity-80 transition-opacity">
                                 {subCat.label}
                             </Link>
                         ))}

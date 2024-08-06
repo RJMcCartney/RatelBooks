@@ -24,7 +24,7 @@ function CategoryMenu() {
                     <ul className="flex items-center gap-6 text-sm">
                         <Link
                             href={"/categories"}
-                            className="hover:opacity-70 transition-opacity flex items-center gap-2"
+                            className="hover:text-blue-500 opacity-70 transition-opacity flex items-center gap-2"
                         >
                             <RiMenu2Line fontSize={18} />
                             All Category
@@ -33,7 +33,7 @@ function CategoryMenu() {
                             <div key={cat.path + idx} className="relative">
                                 <a
                                     href={cat.path}
-                                    className="hover:opacity-80 transition-opacity cursor-pointer"
+                                    className="hover:text-blue-500 opacity-80  transition-opacity cursor-pointer"
                                     onClick={(e) => {
                                         e.preventDefault();
                                         handleCategoryClick(cat);
