@@ -25,8 +25,7 @@ function Footer() {
                         </div>
 
                         <p className="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa
-                            cum itaque neque.
+                            Discover South Africa's rich military history through our curated collection of books. From the Anglo-Boer Wars to modern conflicts, explore the stories that shaped a nation.
                         </p>
 
                         <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
